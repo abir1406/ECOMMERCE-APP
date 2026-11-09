@@ -6,6 +6,9 @@ function Navbar() {
     <div className='flex items-center justify-between py-5 font-medium'>
 
       <img src={assets.logo} className='w-36' alt="" />
+      <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
+
+      </ul>
       
     </div>
   )
